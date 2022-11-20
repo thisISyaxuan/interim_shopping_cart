@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Manager</title>
+    </head>
+
+    <body>
+        <h1>Manager</h1>
+        <a href="ShoppingPage_control.py">回首頁</a>
+        <div id="app">
+            密碼：<input type="password" v-Model='title'>
+            <div v-if="title != pwd">輸入正確密碼即可獲得adimn權限</div>
+            <a href="manager_edit_control.py" v-if="title == pwd">修改庫存</a>
+            <br><a href="manager_add_control.py" v-if="title == pwd">新增商品</a>
+        </div>
+
+
+    <script language="javascript">
+    const vm1= Vue.createApp({
+        data() {
+            return {
+                message: 'manager pwd',
+                title:'' ,
+                pwd: 1234
+            }
+        }
+    }).mount('#app');
+    </script>
+
+    </body>
+
+</html>
