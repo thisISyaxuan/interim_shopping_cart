@@ -6,7 +6,9 @@ DB：
 - dbConfig.py
 - shopping_cart.sql
 
+
 MVC架構：
+
 1, Model
   - modle_cart.py
   - model_product.py
@@ -20,12 +22,8 @@ MVC架構：
 3, Controller
   - ShoppingPage_control.py
   
-  - ShowCart_control.py
-  - purchase.py
+  - ShowCart_control.py / purchase.py
   
-  - manager_add_control.py
-  - manager_edit_control.py
+  - manager_add_control.py / manager_edit_control.py
   
-  - add_product.py
-  - add_to_cart.py
-  - edit_stock.py
+  - add_product.py / add_to_cart.py / edit_stock.py
