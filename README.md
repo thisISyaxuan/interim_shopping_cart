@@ -20,10 +20,10 @@ MVC架構：
   - manager.html
   
 3, Controller
-  - ShoppingPage_control.py
+  - ShoppingPage_control.py / add_to_cart.py
   
   - ShowCart_control.py / purchase.py
   
   - manager_add_control.py / manager_edit_control.py
   
-  - add_product.py / add_to_cart.py / edit_stock.py
+  - add_product.py / edit_stock.py
